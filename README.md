@@ -21,20 +21,20 @@ How well those variables describe the bike demands
 
 ## Problem Solving Methodology
 * Data Sourcing & Understanding -
-> Source the dataset which contains the complete data for all bookings made during the time period 2018 t0 2019. 
+> Source the dataset which contains the complete data for all bookings made during the time period 2018 to 2019.
 > Making use of the data dictionary and understanding the columns and their domain specific uses.
 * Data Cleaning -
-> Remove the unnecessary columns and map the categorical values with their actual values
+> Remove the unnecessary columns and map the categorical values with their actual values.
 * EDA -
-> Create box plots of continuous variables, visualize categorical variable with target variable, visualize correlation between the variables using pair plots and heat map and visualize categorical variables with target variable w.r.t. year
+> Create box plots of continuous variables, visualize categorical variable with target variable, visualize correlation between the variables using pair plots and heat map and visualize categorical variables with target variable w.r.t. year.
 * Data preparation fro modelling -
-> Create dummy variables, split data into training and testing set, perform feature scaling
+> Create dummy variables, split data into training and testing set, perform feature scaling.
 * Model Building -
-> Use RFE to find top 15 variables and then use statsmodel api to build models and remove columns based on their VIF and p-values, finally build a linear regression model by sklearn using the columns selected from the statsmodel api models
+> Use RFE to find top 15 variables and then use statsmodel api to build models and remove columns based on their VIF and p-values, finally build a linear regression model by sklearn using the columns shortlisted after building models with statsmodel api.
 * Model predictions and Residual Analysis -
 > Make predictions on the training and testing set using the linear regression model and preform residual analysis to validate the assumptions of Linear Regression. The assumptions include normality of residuals, homoscedasticity and independence of residuals.
 * Model Evaluation -
-> Evaluate the model by chekcing the R-squared value for training and testing set 
+> Evaluate the model by chekcing the R-squared value for training and testing set.
 
 
 ## Conclusions
