@@ -50,6 +50,11 @@ cnt = 0.1093 + 0.2413 * yr + 0.4318 * temp - 0.1603 * season_spring + 0.0945 * s
 4. Month (dec, july, march, nov, sep)
 5. Weather situation (clear, light snow and rain)
 
+- Altough the dependence of the model on the year column doesn't seem logical practically.
+
+But one thing which can be inferred is that the demand of shared bikes has increased rapidly from 2018 to 2019 which may be the case due to increase in promotions and advertisements.
+
+This is what may be captured by the model by its high dependence on the year column.
 
 ## Technologies Used
 - Numpy        - version 1.21.6
