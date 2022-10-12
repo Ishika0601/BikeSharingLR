@@ -40,7 +40,7 @@ How well those variables describe the bike demands
 ## Conclusions
 - The equation of best fitted line according to the model is
 
-cnt = 1336.0415 + 1998.9114 * yr + 3576.6992 * temp - 1327.6736 * season_spring + 782.9887 * season_winter - 510.5783 * mnth_dec - 422.5030 * mnth_july + 496.0487 * mnth_mar - 692.638 * mnth_nov + 427.4597 * mnth_sep + 698.7583 * weathersit_clear - 1658.8462 * weathersit_light_snowrain
+cnt = 0.1093 + 0.2413 * yr + 0.4318 * temp - 0.1603 * season_spring + 0.0945 * season_winter - 0.0616 * mnth_dec - 0.0510 * mnth_july + 0.0599 * mnth_mar - 0.0836 * mnth_nov + 0.0516 * mnth_sep + 0.0844 * weathersit_clear - 0.2003 * weathersit_light_snowrain
 
 - The variables on which the demand of bikes depend are
 
